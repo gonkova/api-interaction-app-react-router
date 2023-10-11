@@ -1,0 +1,53 @@
+table,
+th,
+tr,
+td {
+    border: 1px solid #4f4f4f;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    table {
+        width: 100%;
+        border:none;
+    }
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+        border: none;
+    }
+
+    tbody tr {
+        margin: 0.5rem 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    td,
+    th {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    thead tr {
+        display: none;
+        border-collapse: hide;
+    }
+}

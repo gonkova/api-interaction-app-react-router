@@ -1,0 +1,27 @@
+.container-log {
+    width: 30%;
+    height: 12rem;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-log-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-log-item input {
+    padding: 4px 8px;
+}
+
+@media (max-width: 1024px) {
+    .container-log {
+        width: 80%;
+        margin-top: 1rem;
+    }
+}
