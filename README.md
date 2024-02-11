@@ -18,7 +18,7 @@ This application is created to provide you with fun and intriguing facts. It use
 7. On Additional Page 2, you can again make a request to the API and see the responses.
 
 ## Demo
-You can find a demo of the application at the following [link](http://app.boryanagonkova.com/).
+You can find a demo of the application at the following [link](https://app.boryanagonkova.com/).
 
 ## Technologies
 - We used React to create the interface of the application.
